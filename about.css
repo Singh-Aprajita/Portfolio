@@ -1,0 +1,46 @@
+img{
+    height: 400px;
+    position: absolute;
+    top:90px ;
+    left: 70px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 300px;
+  
+}
+    
+    .text{
+    position: absolute;
+    top:80px;
+    left: 400px;
+    font-size: xx-large;
+   
+    font-family: 'Times New Roman', Times, serif;
+    
+    padding: 5%;
+    margin: 5%;
+    text-align: justify;
+    text-overflow: ellipsis;
+}
+
+.topnav a {
+ 
+    float: left;
+    color: #060606;
+    text-align:right;
+    padding: 14px 20px;
+    text-decoration:underline;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f7aaaa;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }

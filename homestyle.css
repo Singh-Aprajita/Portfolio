@@ -1,0 +1,45 @@
+
+.overlay-text{
+
+  font-family: 'Lora', Courier, monospace;
+   color: rgb(255, 255, 255); 
+  font-size:50px;
+  position: absolute;
+  top: 500px;
+  left: 600px;
+}
+
+img{
+  height: 600px;
+  width: 1000px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  opacity:50%;
+   margin: 20px;
+  }
+
+  
+  
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fcf9f9;
+  text-align:right;
+  padding: 16px 30px;
+  text-decoration:underline;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

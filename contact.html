@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+   
+</head>
+<body>
+  <div class="topnav">
+     <a href="homepage.html">Go Back</a>   
+    <a href="about.html">About Me</a> 
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact<a>
+    <a href="resume.html">Resume</a>
+   
+</div>
+  
+  <br><br><br><br>
+   <h2>Contact Us</h2>
+   <form name="myForm" onsubmit="return validateForm()" method="post">
+          Name:<input  type="text" id="" name="name" placeholder="first name  ...." ><br><br>
+   
+         E-mail id:<input type="text" id="" name="email" placeholder="abc@gmail.com"><br><br>
+         Contact:<input type="number" id="" name="contact"  placeholder="contact no. ..."><br><br>
+         <button type="submit">Submit</button>
+       
+
+
+  
+
+   <script>
+    function validateForm() {
+      const name = document.forms["myForm"]["name"].value;
+      const email = document.forms["myForm"]["email"].value;
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const contact = document.forms["myForm"]["contact"].value;
+
+      if (name === "") {
+        alert("Name must be filled out");
+        return false;
+      }
+
+      if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return false;
+        
+      }
+
+       if (contact === "") {
+        alert("contact must be filled out");
+        return false;
+
+
+
+      }
+
+      return true;
+    }
+  </script>
+
+  
+
+
+</body>
+</html>

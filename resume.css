@@ -1,0 +1,27 @@
+.topnav a {
+    float: left;
+    color: #0a0a0a;
+    text-align:right;
+    padding: 14px 40px;
+    text-decoration:underline;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f6f6f6;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(7, 7, 7);
+  }
+
+  img{
+    height: 700px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+  }
